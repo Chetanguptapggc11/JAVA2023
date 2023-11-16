@@ -16,7 +16,6 @@ class FileStats {
                 lines++;
                 characters += line.length();
 
-                // Split the line into words and count them
                 String[] wordsArray = line.split("\\s+");
                 words += wordsArray.length;
             }
